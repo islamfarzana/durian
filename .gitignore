@@ -1,0 +1,54 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Build outputs
+/public/build
+/public/hot
+/public/storage
+
+# Laravel specific
+/storage/*.key
+.env
+.env.backup
+.env.*.local
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+/database
+
+# Logs
+npm-debug.log
+yarn-error.log
+storage/logs/*.log
+
+# IDE
+/.idea
+/.vscode
+*.swp
+*.swo
+
+# AI assistant configuration and skills
+/.agents/
+/.claude/
+/.codex/
+/.cursor/
+/.github/skills/
+/.junie/
+/.kilo/
+/.zed/
+
+# OS
+.DS_Store
+Thumbs.db
+/.rnd
+
+# Testing
+coverage/
+
+# Demo marketplace images written by MarketplaceDemoSeeder
+/public/front/images/**/demo-*.svg
+
+# Screenshots and logs from the Playwright MCP browser
+/.playwright-mcp/

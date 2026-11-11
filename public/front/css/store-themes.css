@@ -1,0 +1,147 @@
+.store-theme-band {
+    background: var(--store-secondary);
+    color: var(--store-text);
+    border-bottom: 4px solid var(--store-primary);
+    padding: 28px 0 22px;
+}
+
+.store-theme-band h2 {
+    font-family: var(--store-font-heading);
+    color: var(--store-primary);
+    font-size: 34px;
+    margin-bottom: 6px;
+}
+
+.store-theme-kicker {
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: var(--store-accent);
+}
+
+.store-theme .header-top {
+    background: var(--store-primary) !important;
+}
+
+.store-theme .btn-dark,
+.store-theme .btn-primary {
+    background-color: var(--store-primary) !important;
+    border-color: var(--store-primary) !important;
+    border-radius: var(--store-radius) !important;
+}
+
+.store-theme .product-default {
+    background: var(--store-surface);
+    border-radius: var(--store-radius);
+}
+
+.store-theme .product-title,
+.store-theme h1,
+.store-theme h2,
+.store-theme .section-title {
+    font-family: var(--store-font-heading);
+}
+
+.store-theme,
+.store-theme body,
+.store-theme .page-wrapper {
+    font-family: var(--store-font-body);
+}
+
+.store-theme-fashion {
+    background: #f6f1ea;
+}
+
+.store-theme-fashion .header-middle,
+.store-theme-fashion .header-bottom {
+    background: #f6f1ea !important;
+}
+
+.store-theme-fashion .store-theme-band h2 {
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.store-theme-fashion .product-default {
+    background: transparent;
+    border: 0;
+}
+
+.store-theme-grocery .header-middle {
+    background: #f3faf4 !important;
+}
+
+.store-theme-grocery .product-default {
+    border: 1px solid #d7eadb;
+    padding: 8px;
+}
+
+.store-theme-grocery .product-price {
+    color: #1f7a3a !important;
+    font-weight: 700;
+}
+
+.store-theme-electronics .header,
+.store-theme-electronics .header-middle,
+.store-theme-electronics .header-bottom {
+    background: #0e1420 !important;
+}
+
+.store-theme-electronics .header a,
+.store-theme-electronics .header .logo,
+.store-theme-electronics .header-middle {
+    color: #e8eefc !important;
+}
+
+.store-theme-electronics .store-theme-band {
+    background: #0e1420;
+    color: #e8eefc;
+}
+
+.store-theme-electronics .store-theme-band h2,
+.store-theme-electronics .store-theme-kicker {
+    color: #8eb6ff;
+}
+
+.store-theme-electronics .product-default {
+    background: #f7f9fc;
+    border: 1px solid #d5def0;
+}
+
+.card-style-spec .product-default .product-title {
+    font-family: var(--store-font-heading);
+    letter-spacing: 0.01em;
+}
+
+.store-theme-marketplace .header-middle {
+    background: #fff8f1 !important;
+}
+
+.store-theme-marketplace .store-theme-band {
+    background:
+        linear-gradient(90deg, var(--store-primary), var(--store-accent));
+    color: #fff;
+}
+
+.store-theme-marketplace .store-theme-band h2,
+.store-theme-marketplace .store-theme-kicker {
+    color: #fff;
+}
+
+.header-style-centered .header-middle .container {
+    justify-content: center;
+}
+
+.header-style-compact .header-top {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.card-style-compact .product-default {
+    padding: 6px;
+}
+
+.card-style-compact .product-default figure {
+    margin-bottom: 8px;
+}
